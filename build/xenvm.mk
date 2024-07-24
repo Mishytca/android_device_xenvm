@@ -15,6 +15,9 @@
 # limitations under the License.
 
 $(call inherit-product, device/xen/xenvm/build/device.mk)
+$(call inherit-product, vendor/epam/unreal-dist/unreal.mk)
+
+
 
 PRODUCT_NAME := xenvm
 PRODUCT_DEVICE := xenvm
